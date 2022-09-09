@@ -20,6 +20,8 @@ namespace vs_2019_github_collaboration
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    int Dummy = 3;
+                    int Dummy2 = 4;
                     webBuilder.UseStartup<Startup>();
                 });
     }
